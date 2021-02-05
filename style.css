@@ -1,0 +1,50 @@
+.navbar{
+    margin-top: 0.8em;
+background-color: rgba(0, 0, 0, 0.089);
+text-align: center;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+.navbar-nav{
+    /* margin-left: 40em; */
+    text-align: center;
+}
+.nav-link{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+
+}
+
+.btn  {
+    margin-left: 1.7em;
+}
+
+
+body{
+background-image: url(/pexels-jessica-lewis-606541.jpg);
+background-size: cover;
+}
+
+.container-payments{
+    margin-top: 6em;
+    margin-left: 70em;
+}
+
+.container-payments h1 , h5{
+    color: antiquewhite;
+}
+
+
+.form-select{
+    margin-top: 0.8em;
+}
+.form-select2{
+    margin-top: 0.8em;
+}
