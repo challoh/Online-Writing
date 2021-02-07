@@ -1,7 +1,7 @@
 .navbar{
     margin-top: 0.8em;
 background-color: rgba(0, 0, 0, 0.089);
-text-align: center;
+
 }
 
 .navbar-brand{
@@ -9,6 +9,7 @@ text-align: center;
     font-size: 2em;
     text-transform: uppercase;
     color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .navbar-nav{
     /* margin-left: 40em; */
@@ -28,23 +29,91 @@ text-align: center;
 
 
 body{
-background-image: url(/pexels-jessica-lewis-606541.jpg);
-background-size: cover;
+    background-image: url();
+    background-size: cover;
 }
 
-.container-payments{
+/* .container-payments{
     margin-top: 6em;
     margin-left: 70em;
-}
+} */
 
-.container-payments h1 , h5{
+.container-payments h1{
     color: antiquewhite;
+     text-align: center;
 }
 
 
 .form-select{
     margin-top: 0.8em;
+    margin-left: 12em;
 }
 .form-select2{
     margin-top: 0.8em;
+}
+.btn-check{
+    margin-top: 0.8em; 
+    margin-left: 20em;
+}
+.number{
+    margin-top: 0.8em; 
+    margin-left: 12em;
+
+}
+.container-overflow-hidden{
+    margin-top: 2em;
+    margin-left: 55em;
+}
+.container-overflow-hidden h1{
+    color: antiquewhite;
+}
+
+.container-brief{
+    color: antiquewhite;
+    margin: 0.9em;
+}
+.container-brief p{
+    margin-top: 6em;
+}
+/* .col-6 h1{
+    color: antiquewhite;
+} */
+/* .main-section{
+    background-image: url(/pexels-jessica-lewis-606541.jpg);
+    background-size: cover;
+} */
+
+ .whyus{ 
+    margin-top: 5em;
+    color: rgba(255, 0, 0, 0.466);
+    background-color: rgba(201, 196, 196, 0.308);
+}
+
+.whyus h1{
+    text-align: center;
+} 
+.btn ,btn-outline-secondary{
+    /* margin-left */
+    margin-top: 0.8em; 
+    margin-left: 10em;
+}
+.select-currency{
+    margin-top: 0.8em; 
+    margin-left: 10em;
+}
+.row{
+    margin-left: 10em;
+}
+
+.hospitality{
+    margin-top: 5em;
+}
+
+.hospitality ,h5{
+    text-align: center;
+    padding-top: 2em;
+}
+
+.hospitality,img{
+    padding-left: 4em;
 }
