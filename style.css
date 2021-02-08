@@ -88,7 +88,10 @@ body{
     color: rgba(255, 0, 0, 0.466);
     background-color: rgba(201, 196, 196, 0.308);
 }
-
+.section1{
+    background-image: url(/images/options4.png);
+    background-size: cover;
+}
 .whyus h1{
     text-align: center;
 } 
@@ -116,4 +119,109 @@ body{
 
 .hospitality,img{
     padding-left: 4em;
+}
+
+/* footer{
+    background-color: gray;
+    height: 30em;
+} */
+
+.page-footer{
+    background-color: rgba(201, 196, 196, 0.308);
+}
+
+.footer-links{
+  margin-left: 3em;
+}
+.footer-lists{
+    padding: 1em;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.services-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #3c4053;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-accordion{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.accordion-item{
+    background-color:#283042 ;
+    border-radius: 4rem;
+    margin-bottom:1rem ;
+    padding:1rem ;
+    box-shadow: .5rem ,2px .5rem rgba(0, 0, 0, .1);
+}
+
+.accordion-link{
+    font-size:1.6rem ;
+    color:rgba(225, 225, 225, .8) ;
+    text-decoration:none ;
+    background-color:#203042 ;
+    width:100% ;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i{
+    color:#e7d5ff ;
+    padding: .5rem;
+}
+
+.accordion-link .ion-md-arrow-dropup{
+  display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650rem;
+   
+}
+.answer p{
+    background-color: #212838;
+    color: rgba(255, 255, 255, .6);
+    padding: 2rem;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color:#8fc460 ;
+    top: 50;
+    left: 0;
+    transform: translateY(-50%);
+}
+.accordion-item:target .answer{
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link.ion-md-arrow-dropdown{
+    display: none;
+}
+
+
+.accordion-item:target .accordion-link.ion-md-arrow-dropup{
+    display: block;
 }
