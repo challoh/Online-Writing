@@ -1,322 +1,271 @@
-.navbar{
-    margin-top: 0.8em;
-background-color: rgba(0, 0, 0, 0.089);
-
-}
-
-.navbar-brand{
-    font-weight: 800;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: antiquewhite;
-    /* background-color: antiquewhite; */
-}
-.navbar-nav{
-    /* margin-left: 40em; */
-    text-align: center;
-}
-.nav-link{
-    font-weight: 800;
-    text-transform: uppercase;
-    color: wheat;
-    text-align: center;
-
-}
-
-.btn  {
-    margin-left: 1.7em;
-}
-
-
-body{
-    background-image: url();
-    background-size: cover;
-}
-
-/* .container-payments{
-    margin-top: 6em;
-    margin-left: 70em;
-} */
-
-.container-payments h1{
-    color: antiquewhite;
-     text-align: center;
-}
-
-
-.form-select{
-    margin-top: 0.8em;
-    margin-left: 12em;
-}
-.form-select2{
-    margin-top: 0.8em;
-}
-.btn-check{
-    margin-top: 0.8em; 
-    margin-left: 20em;
-}
-.number{
-    margin-top: 0.8em; 
-    margin-left: 12em;
-
-}
-.container-overflow-hidden{
-    margin-top: 2em;
-    margin-left: 55em;
-}
-.container-overflow-hidden h1{
-    color: antiquewhite;
-}
-
-.container-brief{
-    color: antiquewhite;
-    margin: 0.9em;
-}
-.container-brief p{
-    margin-top: 6em;
-}
-/* .col-6 h1{
-    color: antiquewhite;
-} */
-/* .main-section{
-    background-image: url(/pexels-jessica-lewis-606541.jpg);
-    background-size: cover;
-} */
-
- .whyus{ 
-    margin-top: 5em;
-    color: rgba(255, 0, 0, 0.466);
-    background-color: rgba(201, 196, 196, 0.308);
-}
-.section1{
-    background-image: url(/images/options4.png);
-    background-size: cover;
-}
-.whyus h1{
-    text-align: center;
-} 
-.btn ,btn-outline-secondary{
-    /* margin-left */
-    margin-top: 0.8em; 
-    margin-left: 10em;
-}
-.select-currency{
-    margin-top: 0.8em; 
-    margin-left: 10em;
-}
-.row{
-    margin-left: 10em;
-}
-
-.hospitality{
-    margin-top: 5em;
-}
-
-.hospitality ,h5{
-    text-align: center;
-    padding-top: 2em;
-}
-
-.hospitality,img{
-    padding-left: 4em;
-}
-
-/* footer{
-    background-color: gray;
-    height: 30em;
-} */
-
-.page-footer{
-    background-color: rgba(201, 196, 196, 0.308);
-}
-
-.footer-links{
-  margin-left: 3em;
-}
-.footer-lists{
-    padding: 1em;
-}
-/* 
-*,
-*::before,
-*::after{
-    margin: 0;
+.sticky-section{
+    overflow:hidden;
+    background-color: rgba(253, 253, 253, 0.966);
+    margin-bottom:50px;
+    width:100%; 
+    color:white; 
+    position:-webkit-sticky;
+    position:sticky;
+    top:0px;
+  }
+  
+  .logo{
+    /* position: fixed; */
+    float: left;
+    margin: 16px 36px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  nav{
+    /* position: fixed; */
+    width: 100%;
+  }
+  nav ul{
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color:black;
     padding: 0;
-    box-sizing: inherit;
-}
-
-.services-section{
-    width: 100%;
-    height: 100vh;
-    background-color: #3c4053;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-accordion{
-    width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-}
-
-.accordion-item{
-    background-color:#283042 ;
-    border-radius: 4rem;
-    margin-bottom:1rem ;
-    padding:1rem ;
-    box-shadow: .5rem ,2px .5rem rgba(0, 0, 0, .1);
-}
-
-.accordion-link{
-    font-size:1.6rem ;
-    color:rgba(225, 225, 225, .8) ;
-    text-decoration:none ;
-    background-color:#203042 ;
-    width:100% ;
-    display: flex;
-    align-items:center ;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-.accordion-link i{
-    color:#e7d5ff ;
-    padding: .5rem;
-}
-
-.accordion-link .ion-md-arrow-dropup{
-  display: none;
-}
-
-.answer{
-    max-height: 0;
-    overflow: hidden;
-    position: relative;
-    transition: max-height 650rem;
-   
-}
-.answer p{
-    background-color: #212838;
-    color: rgba(255, 255, 255, .6);
-    padding: 2rem;
-}
-
-.answer::before{
-    content: "";
-    position: absolute;
-    width: .6rem;
-    height: 90%;
-    background-color:#8fc460 ;
-    top: 50;
-    left: 0;
-    transform: translateY(-50%);
-}
-.accordion-item:target .answer{
-  max-height: 20rem;
-}
-
-.accordion-item:target .accordion-link.ion-md-arrow-dropdown{
-    display: none;
-}
-
-
-.accordion-item:target .accordion-link.ion-md-arrow-dropup{
-    display: block;
-} */
-
-
-/* accordion 2 */
-
-.body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* min-height: 100vh; */
-    margin-top:5em;
-}
-.wrapper{
-    max-width: 600px;
-    padding: 0 20px;
-}
-.wrapper .parent-tab,
-.wrapper .child-tab{
-  margin-bottom: 8px;
-  border-radius: 3px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
-}
-.wrapper .parent-tab label,
-.wrapper .child-tab label{
-    background: #007bff;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    border-radius: 3px;
-    position: relative;
-    z-index: 99;
-}
-
-
-.wrapper label span{
-    color: #fff;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+  }
+  
+  nav.black ul{
+    background: #000;
+  
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: black;
     font-size: 18px;
-    font-weight: 500;
-    text-shadow: 0 -1px 1px #0056b3;
-}
-.child-tab label span{
-    font-size: 17px;
-}
-
-.wrapper label .icon{
-    position: relative;
-    height: 30px;
-    width: 30px;
-    color: #007bff;
-    font-size: 34px;
-    display: block;
-    background: #fff;
-    border-radius: 50%;
-    text-shadow: 0 -1px 1px #0056b3;
-}
-.parent-tab input:checked ~ label.icon i::before, 
-.child-tab input:checked ~ label.icon i::before{
-    content: '\f068';
-}
-
-.wrapper label .icon i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.wrapper .parent-tab .content,
-.wrapper .child-tab .sub-content{
-    max-height: 0px;
-    overflow: hidden;
-    transition: all 0.4s ease;
-}
-.tab-3 input:checked ~ .content{
-    padding: 15px 20px;
-}
-.parent-tab input:checked ~ .content, 
-.child-tab input:checked ~ .sub-content{
-   max-height: 100vh;
-}
-
-.wrapper .parent-tab .content p,
-.wrapper .child-tab .sub-content p{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  
+  
+  /* Detailed Css */
+  
+  /* Style inputs, select elements and textareas */
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 10px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* float: right; */
+    margin-left: 12em;
+    /* margin-top: 2em; */
+    /* margin-bottom: 3px; */
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: rgba(253, 253, 253, 0.966);
+    box-shadow: 4px 4px 4px 4px #ccc;
+    width: 60em;
+    margin-left: 5em;
+    text-align: center;
+  }
+  
+  
+  /* Alvo replacements */
+  .alvo{
+  float: left;
+  width: 25%;
+  margin: 20px;
+  }
+  .alvo-input{
+  float: left;
+    width: 8em;
+    margin: 20px;
+   
+  }
+  
+  /* Alvo replacements */
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+    padding-left: 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* End of Detailed css */
+  
+  .button-submit{
+    background-color: #4CAF50;
+    color: #ccc;
+    height: 3em;
+    width: 4em;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    padding: 15px 20px;
-}
-.wrapper input{
-    display: none;
-}
-
-.payments{
- margin-top: 4px;
- padding-left: 2px;
-}
+    margin: 4px 2px;
+  }
+  
+  .button4 {border-radius: 12px;}
+  
+  
+  
+  
+  input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+  display: none;
+  }
+  .label-radio{
+  color:gray;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 20px;
+  }
+  input[type=radio]:checked + label{
+  color: gray;
+  background-color: #000;
+  }
+  
+  label + input[type=radio] + label{
+  border-left: solid 3px gray;
+  }
+  .radio-group{
+  border: solid gray;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  }
+  
+  .radio-group1{
+  border: solid gray;
+  display: inline-block;
+  margin: 20px;
+  justify-content: space-around;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  
+  }
+  
+  .radio-group2{
+  border: solid gray;
+  display: inline-block;
+  margin: 20px;
+  justify-content: space-around;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  
+  }
+  
+  .checkbox{
+  margin-left: 1px;
+  
+  }
+  
+  * {box-sizing: border-box}
+  
+  /* Add padding to containers */
+  .container {
+  padding: 16px;
+  margin: 5em;
+  }
+  
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 35em;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20em;
+  opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+  opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+  color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  }
